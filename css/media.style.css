@@ -1,0 +1,28 @@
+@media(max-width : 1000px){
+    .footer{
+        padding: 0;
+        height: 60vh;
+    }
+    .footer-top{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .footer-sub-left{
+        width: 100vw; 
+    }
+    .footer-left{
+        width: 100vw;   
+    }
+    .footer-sub-right{
+        width: 99%;
+        margin-top: 2rem;
+        padding: 0px 10px;
+    }
+    .footer-btn{
+        padding: 0px 10px;
+    }
+    .footer-top .footer-right, .footer-left li{
+        font-size: 15px;
+        width: 100%;
+    }
+}
