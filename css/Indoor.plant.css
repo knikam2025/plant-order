@@ -1,0 +1,48 @@
+.indore-plants-image {
+    border-radius: 25px !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: -90px;
+}
+
+.indore-plants-card-image {
+    border: solid 1px !important;
+    width: 200px;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.indoor-plant-image{
+    padding-bottom: 120px;
+}
+
+
+
+.right-leaf {
+    color: #A2B6A6;
+    width: 52px;
+    height: 46.01px;
+    top: -0px;
+    left: 0.01px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.left-leaf {
+    color: #A2B6A6;
+    width: 52px;
+    height: 46.01px;
+    top: -0px;
+    left: 51.99px;
+    gap: 0px;
+    opacity: 0px;
+   
+
+    rotate: -180;
+
+}
+
+.fa-star{
+    color:yellow !important;
+}
