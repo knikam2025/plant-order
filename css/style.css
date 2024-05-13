@@ -2,6 +2,9 @@
     font-family: 'Cambria';
 }
 
+
+/* Navbar */
+
 .nav-anchar {
     color: #272837 !important;
     font-size: 17px;
@@ -42,11 +45,45 @@
     background-color: #FFFDFD99 !important;
 }
 
-#home-main {
+
+
+/* Home..... */
+
+.about-main1-bg{
+    height: 100%;
+    width: 100%;
+    background-image: url("../Images/About-Images/AboutBg.jpg") !important;
+    background-position: center;
+    background-size: cover;
+    opacity: .5;
+}
+.about-main1-text{
+    color: #355326;
+    position: absolute;
+    font-weight: 900;
+    top: 8vh;
+    right: 30vw;
+    font-family: 'Cambria';
+}
+#about-main1-bg2{
+    background-image: url('../Images/About-Images/AboutBg1.jpg') !important;
+}
+.about-main-content .main-content{
+    height: 60vh;
+    width: 55vw;
+    border-radius: 20px;
+    border: 2px solid #355326;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25rem;
+}
+
+#home-main, #about-main {
     font-family: 'Cambria';
 }
 
-#home-main1 {
+#home-main1, #about-main1 , #about-main2 {
     background-image: url('/plant-order/Images/WhatsApp\ Image\ 2024-05-09\ at\ 4.32.49\ PM.jpeg');
     background-position: center;
     background-size: cover;
@@ -273,6 +310,7 @@
 }
 
 
+/* Footer */
 
 .footer {
     height: 48vh;
