@@ -372,3 +372,404 @@
     padding-top: 3.5px;
     padding: 5px;
 }
+
+
+/* // */
+
+/* contact us */
+.cname {
+  margin-top: 7px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.cnamec {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+}
+
+.ccontent1,
+.ccontent2 {
+  /* height: 65px; */
+  /* top: 240px; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  font-family: Cambria;
+  font-size: 13px;
+
+  /* background-color: aqua; */
+  /* position: absolute; */
+}
+
+.ccontent1 {
+  gap: 0px;
+  opacity: 0px;
+  text-align: left;
+}
+
+.ccontent2 {
+  font-size: medium;
+  display: inline-block;
+}
+
+
+
+.flname {
+  display: flex;
+  justify-content: space-between;
+  /* display: flex; */
+}
+
+.cemail {
+  display: contents;
+  justify-content: space-between;
+  margin-left: 20px;
+width: 100%;
+}
+
+.cform {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin-left: 7rem;
+}
+
+.cmessage{
+    width: 100%;
+    
+}
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+lebel{
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+
+}
+
+.ccapchabox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.ccpatcha1{
+  display: flex;
+  align-items: center;
+}
+
+.ccpatcha1 input[type="chechbox"]{
+  margin-right: 10px;
+}
+
+.ccpatcha1 p {
+  margin: 0;
+}
+
+.cimg .img1{
+  width: 50px;
+  height: 50px;
+}
+
+.epage {
+background-color: #b39d96;
+border: solid 2px black;
+display: flex;
+justify-content: space-around;
+margin-top: 3rem;
+}
+
+
+.cdate, .cinfo, .cconf{
+  background-color: aliceblue;
+}
+.conf{
+margin-top: 30px; 
+margin-left: 2rem;
+ background-color: #b39d96;
+
+}
+
+.fccart{
+border: #111 solid 2px;
+display: flex;
+align-items: center;
+text-align: center;
+margin-left: 25px;
+margin-top: 2px;
+margin-bottom: 0px;
+width:70%;
+height: 250px;
+line-height: 15px;
+
+}
+
+
+textca{
+  line-height: 10px;
+}
+
+.cfimg{
+height: 100px;
+width: 100px;
+margin: 1rem;
+}
+
+.fccart p {
+  margin-top: 3.5rem;
+  
+}
+
+.educate {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://cdn.pixabay.com/photo/2014/07/22/13/38/poppies-399409_1280.jpg");
+  /* display: flex; */
+}
+
+.card {
+  display: flex;
+  width: 20rem;
+  border-left: 2px solid #000; 
+  margin-right: 10px; 
+justify-content: space-around;
+margin-left: 90px;
+
+}
+
+/* 
+.card img{
+  margin: 25px;
+  height: 50px;
+  width: 100px;
+} */
+
+
+
+
+
+
+
+
+
+/* visit confim  a vista*/
+
+.h-main{
+  margin-top: 30px;
+height: 200px;
+width:100% ;
+display: flex;
+background: linear-gradient(107.38deg, rgba(162, 182, 166, 0.7) 6.27%, rgba(179, 157, 150, 0.7) 92.02%);
+justify-content: space-around;
+
+}
+
+
+.v-main{
+    margin-top:3rem;
+    margin-bottom: -2rem;
+    margin-left: 40rem;
+}
+
+
+.v-img img{
+  height: 200px;
+  width:200px ;
+  margin-top: -60px;
+  margin-left: 30px;
+  border-radius: 10%;
+  
+
+}
+
+.main-text{
+  display: flex;
+height:200px ;
+margin-left: 4rem;
+margin-top: 1rem;
+}
+
+.v-se-img{
+margin-left: 200px;
+
+}
+.v-se-img img{
+  display: inline-block;
+margin: 1rem;
+position: relative;
+
+height: 250px;
+  width: 400px;
+  border-radius: 20px;
+  
+}
+
+.v-s-ptext{
+  color: rgba(228, 67, 67, 1);
+line-height: 15px;
+margin-top: -100px;
+font-size: 10px;
+margin-left: 15px;
+}
+
+.cl-text{
+  margin-left: 4rem;
+margin-right: 5px;
+}
+
+
+.tchead{
+  font-size:medium;
+}
+
+.v-btnbbok{
+  width: 100%;
+  background: rgba(53, 83, 38, 1);
+color: bisque;
+font-size: small;
+}
+
+.donatebox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 20px;
+  background: linear-gradient(280.59deg, rgba(119, 88, 71, 0.83) 26.43%, rgba(53, 83, 38, 0.76) 81.53%);
+
+}
+
+.btn-donate{
+background-color: rgba(53, 83, 38, 1);
+color: antiquewhite;
+font-size: small;
+margin-bottom: 5px;
+
+}
+
+.c-name-donate{
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+.vb-pageing{
+  margin-left: 40px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: 30px;
+  font-size: medium;
+  background-color: #355326;
+
+}
+
+
+/* vista page b css */
+.ts-text{
+  border-left: #355326 solid 2px;
+margin: 2px;
+}
+
+
+
+
+.tb-main{
+  margin: 20px;
+
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+
+.tb-mainleft{
+height: 400px;
+width: 49%;
+margin: 5px;
+}
+
+.tb-mainright{
+display: flex;
+  height: 400px;
+  width: 49%;
+  margin: 5px;
+  justify-content: space-around;
+}
+
+.cp-left-text{
+  color: rgba(238, 45, 45, 1);
+
+}
+.dbtime{
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+
+/* Indoor Plants Page CSS Start */
+.indore-plants-image {
+  border-radius: 25px !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: -90px;
+}
+
+.indore-plants-card-image {
+  border: solid 1px !important;
+  width: 200px;
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.indoor-plant-image{
+  padding-bottom: 120px;
+}
+
+
+
+.right-leaf {
+  color: #A2B6A6;
+  width: 52px;
+  height: 46.01px;
+  top: -0px;
+  left: 0.01px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+
+.left-leaf {
+  color: #A2B6A6;
+  width: 52px;
+  height: 46.01px;
+  top: -0px;
+  left: 51.99px;
+  gap: 0px;
+  opacity: 0px;
+ 
+
+  rotate: -180;
+
+}
+
+.fa-star{
+  color:yellow !important;
+}
+
+/* Indoor Plants Page CSS End */
