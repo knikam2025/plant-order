@@ -735,3 +735,94 @@ display: flex;
 }
 
 /* Indoor Plants Page CSS End */
+
+
+
+
+/* * login page start*/ 
+
+  .sign{
+     background: linear-gradient(111.61deg, #A2B6A6 -10.9%, #C9B6B6 113.03%);
+    
+  }
+
+  .s-signup{
+    
+    height: 600px;
+    width: 900px;
+    margin: 20px;
+    margin-left: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    background: #e1ecec;
+    
+     
+
+  }
+
+  .f-signup, .s-f-signup{
+    height: 100%;
+    width: 50%;
+ 
+    
+  }
+
+  .s-f-signup{
+  background: rgba(217, 229, 215, 0.3) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+  .s-s-text{
+    line-height: 1rem;
+    
+  }
+
+  .f-signup img{
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%
+  }
+
+  .heading{
+    margin-left: 80px;
+    margin-top: -600px;
+    display: flex;
+    color: white;
+    padding: 10px;
+    
+  }
+
+  .account{
+    background-color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.s-or{
+  text-align: center;
+
+}
+
+.gf-button{
+
+  margin-left: 20px;
+  justify-content: space-around;
+}
+
+.l-google, .l-facbook {
+ margin: 10px;
+ 
+   
+}
+
+
+/* login in pag end  */
