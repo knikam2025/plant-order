@@ -1,0 +1,294 @@
+*{
+    font-family: 'Cambria';
+}
+
+/* *******************Navbar starts *************** */
+.nav-anchar{
+    color: #272837 !important;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23.45px;
+    text-align: center; 
+}
+.nav-anchar:hover{
+    font-size: 20px;
+    border-bottom: 1.5px solid #775847;
+}
+.nav-btn{
+    background-color: #355326;
+    width: 10rem;
+    border-radius: 10px;
+    border: none;
+}
+.nav-btn a{
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 40px 0px;
+}
+.nav-btn a:hover{
+    color: #ffff;
+}
+.nav-icon{
+    color: #272837;
+    /* color: #fff; */
+}
+.nav-input{
+    background-color: #FFFDFD99 !important;
+}
+/* *******************Navbar ends *************** */
+
+.facilities{
+    background-image : linear-gradient(#7e9683b2 , #B39D96B2 );
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.facilities p{
+    /* border: 2px solid red; */
+    width: 450px;
+    margin: 120px 540px ;
+    color: white;
+    height: 40vh;
+    text-align: left;
+    padding-top: 10px;
+    /* border: 2px solid red; */
+}
+
+.facilitiesbg1 img {
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 360px;
+    /* position: 100px 100px; */
+    background-size: cover;
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 80px;
+    border-radius: 30px;
+}
+.facilitiesh h2{
+    font-size: larger;
+    font-weight: bold; 
+     margin: -20px 550px;
+     position: absolute;
+     margin-left: 540px;
+     margin-top: -40px;
+     font-size: 1.5rem;
+     /* /* border: 2px solid red; */
+}
+/* .facilitiest{ */
+    
+
+
+
+/* PLan ************ */
+.planimg img{
+    height: 50vh;
+    width: 40vw;
+    position: relative;
+    border-radius: 15px;
+    margin: 10px 510px;
+}
+.plantitle{
+    margin: 0px 140px;
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    margin-top: -40px;
+}
+.plantitle u{
+    color: #3d6828;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.planp{
+    color: red;
+    width: 30vw;
+    margin-top: -80px;
+    margin-left: 20px;
+}
+.planlog{
+    font-size: 1.5rem;
+    margin-left: 50px;
+}
+.planlog u{
+    color: #3d6828;
+    font-weight: bolder;
+}
+
+
+
+
+
+.exp{
+    margin-left: 50px;
+    text-align: left;
+}
+.exp h3{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.luch{
+    margin-left: 50px;
+    text-align: left;
+}
+
+.luch h3{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.access{
+    margin-left: 70px;
+    text-align: left;
+}
+.access h3{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin: 20px;
+    margin-left: 0px;
+}
+.hours{
+    margin-left: 70px;
+    text-align: left;
+}
+.hours h3{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.trip{
+    margin-left: 70px;
+    text-align: left;
+}
+.trip h3{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.bookbtn{
+    background-color: #3d6828;
+    width: 90vw;
+    height: 5vh;
+    color: white;
+    border-radius: 5px;
+    /* margin-left: 15px; */
+}
+.book{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+/* *****Donate section starts ****** */
+.donate-main{
+    background-image : linear-gradient(#775847D4 , #355326C2 );
+    /* border: 2px solid red;*/
+    margin-top: 40px;
+    height: 230px;
+    
+}
+.donatebtn{
+    background-color: #355326;
+    color: white;
+    width: 190px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 520px;
+    border-radius: 5px;
+    
+}
+.donateh3{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    /* margin-top: 260px; */
+    padding-top: 15px;
+    /* border: 2px solid  rebeccapurple; */
+}
+.donatep{
+    color: white;
+    text-align: center;
+    width: 650px;
+    justify-content: center;
+    margin-left: 350px;
+}
+
+/* *****Donate section ends ****** */
+
+
+/* ************ Footer starts *********** */
+
+.footer{
+    position: relative;
+    bottom: 0;
+    height: 45vh;
+    width: 100%;
+    background: #B39D96;
+    color: #ffff;
+    padding: 15px 70px;
+    /* margin-top: 2200px; */
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+}
+.footer-top .footer-right, .footer-left li{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+}
+.footer-sub-left{
+    width: 40%;
+}
+.footer-left h2{
+    margin-left: 30px;
+}
+.footer-left li{
+    list-style: none;
+    line-height: 35px;
+}
+.footer-sub-right{
+    width: 40%;
+    margin-top: 5rem;
+}
+.footer-btn{
+    background: #775847 !important;
+    padding: 0px 20px;
+    border: none !important;
+    color: #ffff;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+}
+.footer-icon{
+    text-align: right;
+}
+.footer-icon i{
+    color: #775847;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 3.5px;
+    padding: 5px;
+}
+
+.follow{
+    margin-top: 40px;
+    position:relative;
+    width: 360px;
+    margin-left: -80px;
+}
+/* ************ Footer ends *********** */
+
+
+
+
