@@ -189,7 +189,7 @@
 
 .cardBody-imageDiv .imgB {
   z-index: 1;
-  height: 7.5vw !important;
+  height: 7.5vw;
 }
 
 .home-cardBody:hover .cardBody-imageDiv {
