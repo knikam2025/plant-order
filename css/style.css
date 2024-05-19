@@ -823,6 +823,174 @@ textca {
 /* Indoor Plants Page CSS End */
 
 
+/*  */
+
+
+/* sign up page css  */
+
+.s-signup{
+    
+  height: 600px;
+  width: 900px;
+  margin: 20px;
+  margin-left: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+   
+
+}
+
+.f-signup, .s-f-signup{
+  height: 100%;
+  width: 50%;
+  border-bottom-right-radius: 10%;
+  border-top-right-radius: 10%;
+  
+  
+
+ 
+ 
+  
+}
+
+.s-f-signup{
+background: rgba(153, 151, 151, 0.3) !important;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+ 
+}
+.s-s-text{
+  line-height: 1rem;
+  
+}
+
+.f-signup img{
+  height: 100%;
+  width: 100%;
+}
+
+
+.c-name-donate {
+margin-top: 20px;
+margin-bottom: -10px;
+}
+
+.vb-pageing {
+margin-left: 40px;
+text-align: center;
+align-items: center;
+display: flex;
+justify-content: space-around;
+width: 80%;
+height: 30px;
+font-size: medium;
+background-color: #355326;
+
+}
+
+
+/* vista page b css */
+.ts-text {
+border-left: #355326 solid 2px;
+margin: 2px;
+}
+
+
+
+
+.tb-main {
+margin: 20px;
+
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+
+.tb-mainleft {
+height: 400px;
+width: 49%;
+margin: 5px;
+}
+
+.tb-mainright {
+display: flex;
+height: 400px;
+width: 49%;
+margin: 5px;
+justify-content: space-around;
+}
+
+.cp-left-text {
+color: rgba(238, 45, 45, 1);
+
+}
+
+.dbtime {
+margin-top: 15px;
+margin-left: 5px;
+}
+
+
+/* Indoor Plants Page CSS Start */
+.indore-plants-image {
+border-radius: 25px !important;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+margin-top: -90px;
+}
+
+.indore-plants-card-image {
+border: solid 1px !important;
+width: 200px;
+border-radius: 25px;
+padding-left: 20px;
+padding-bottom: 10px;
+}
+
+.indoor-plant-image {
+padding-bottom: 120px;
+}
+
+
+
+.right-leaf {
+color: #A2B6A6;
+width: 52px;
+height: 46.01px;
+top: -0px;
+left: 0.01px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.left-leaf {
+color: #A2B6A6;
+width: 52px;
+height: 46.01px;
+top: -0px;
+left: 51.99px;
+gap: 0px;
+opacity: 0px;
+rotate: -180;
+
+}
+
+.fa-star {
+color: yellow !important;
+}
+
+
+/* sign up page css  */
+
 
 
 
@@ -964,6 +1132,7 @@ margin-left: 25%;
   }
 
   .select-payment{
+  
    margin-left: 25%;
   }
 
@@ -971,16 +1140,43 @@ margin-left: 25%;
        margin-left: 25%;
   }
 
-  .p-img{
-    margin-left: 25%;
+.p-img{
+  margin-left: 25%;
+}
+
+  .p-img img{
+    
+    margin-left: -200px;
+    height: 30px;
+    margin-top: -50px
+    
   }
 
   .netbanking{
         margin-left: 25%;
+        width: 300px;
+       
+
   }
+  .submitBt{
+    background: #355326;
+    color: white;
+    width: 300px;
+    margin-left: -82px;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    
+  }
+
+ 
+
 
   .upiapp{
      margin-left: 25%;
+     padding: 5px;
+     border: 0.5px solid black;
+     width: 30%;
   }
 
   .pay-btn{
@@ -1028,14 +1224,15 @@ body {
 }
 
 .product-card {
+
   display: flex;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin: 20px;
-  width: 500px;
-  height: 180px;
+  width: 700px;
+  height: 300px;
   margin-left: 25%;
 }
 
