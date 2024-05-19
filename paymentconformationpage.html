@@ -41,8 +41,7 @@
                         <a class="nav-anchar nav-link" href="#">Store</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-anchar nav-link" href="#">Facilities</a>
-                    </li>
+                        <a class="nav-anchar nav-link" href="#">Facilities</li>
                     <li class="nav-item">
                         <a class="nav-anchar nav-link" href="#">Contact us</a>
                     </li>
@@ -60,8 +59,6 @@
         </div>
     </nav>
     
-
-
     <!-- Payment  conformation page start  -->    
     <br>
     <div class="p-main">
@@ -84,13 +81,13 @@
         <img src="./Images/moneyplant.png" alt="Money Plant">
         <div class="product-details">
             <h2>Money Plant, Scindapsus (Pack of 3) - Plant</h2>
-            <p class="price">₹ 630 </p>
+            <p class="price" data-price="630">₹ 630 </p>
             <div class="bordqt">
                 <p class="qtyok">Quantity</p>
                  &nbsp;<div class="quantity">
-                    <button>-</button>
+                    <button class="decrement">-</button>
                     <span>1</span>
-                    <button>+</button>
+                    <button class="increment">+</button>
                 </div>
             </div>
         </div>
@@ -101,13 +98,13 @@
         <img src="./Images/bamboo.png" alt="Bamboo Plant">
         <div class="product-details">
             <h2>Golden Bamboo Plant</h2>
-            <p class="price">₹ 269</p>
+            <p class="price" data-price="269">₹ 269</p>
             <div class="bordqt">
                 <p class="qtyok">Quantity</p>
                  &nbsp;<div class="quantity">
-                    <button>-</button>
+                    <button class="decrement">-</button>
                     <span>1</span>
-                    <button>+</button>
+                    <button class="increment">+</button>
                 </div>
             </div>
         </div>
@@ -119,49 +116,29 @@
         <img src="./Images/betel.png" alt="Betel Plant">
         <div class="product-details">
             <h2>Betel Leaf-Plant</h2>
-            <p class="price">₹ 100</p>
+            <p class="price" data-price="100">₹ 100</p>
             <div class="bordqt">
                 <p class="qtyok">Quantity</p>
                  &nbsp;<div class="quantity">
-                    <button>-</button>
+                    <button class="decrement">-</button>
                     <span>1</span>
-                    <button>+</button>
+                    <button class="increment">+</button>
                 </div>
             </div>
         </div>
     </div>
 
-
-
-
-
-
-
     <div class="subtotal">
         <p>Subtotal</p>
-        <p class="price12">	&#8377; 999 </p>
+        <p class="price12">₹ 999</p>
     </div>
 
     <div class="orderbtn1">
-        <button class="orderbtn">Place Your Order</button>
+        <button class="orderbtn" id="orderButton">Place Your Order</button>
     </div>
-
-
-
-
-
-
-
-    
-
 
     <br>
     <!-- payment conformation page end  -->
-
-
-   
-
-
 
     <div class="footer">
         <div class="footer-top">
@@ -204,8 +181,6 @@
         </div>
     </div>
 
-
-
     <!-- custom script -->
     <script src="./js/main.js"></script>
     <!-- bootstrap script -->
@@ -217,31 +192,7 @@
     <!-- Swiper CDN -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-
-    <script>
-        var swiper = new Swiper('.swiper', {
-            slidesPerView: 3,
-            direction: getDirection(),
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            on: {
-                resize: function () {
-                    swiper.changeDirection(getDirection());
-                },
-            },
-        });
-
-        function getDirection() {
-            var windowWidth = window.innerWidth;
-            var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
-            // var slidesPerView = window.innerWidth <= 760 ? 0 : 0;
-
-            return direction;
-        }
-
-    </script>
+    
 </body>
 
 </html>

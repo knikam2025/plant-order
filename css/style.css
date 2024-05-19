@@ -826,7 +826,7 @@ textca {
 
 
 
-/* Payment page css start  */
+/* Payment address page css start  */
 
 .p-main{
   display: flex;
@@ -847,16 +847,44 @@ textca {
 
 .f-and-lbtn{
   margin-left: 25%;
+  display: flex;
+margin-left: 25%;
+  
 }
 
+
+
+
+.address{
+  display: flex;
+  margin: auto;
+  margin-left: 0%; 
+  width: 600px;
+  height: 90px;
+ 
+}
 .payment-address{
   margin-left: 25%;
 
 }
 
+
+.rowsbot{
+  margin-left: 24%;
+  width: 50%;
+  display: flex;
+}
+
+.paymentbtm{
+display: flex;
+margin: 20;
+margin-left: 25%;
+}
+
 .paymentbtm button{
-  margin-left: 25%;
+ 
   background: #355326;
+  margin: 30px;
   width: 100px;
   
 }
@@ -867,8 +895,53 @@ textca {
 
 }
 
+.hoobtn button {
+  margin-left: 25%;
+  width: 50%;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  background: #355326;
+  
 
-/* payment page css end  */
+}
+.hoobtn{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 50% ;
+  position: relative;
+  align-items: center;
+  margin-left: 13%;
+}
+
+.continuew1 {
+  display: flex;
+  width: 100%;
+  text-align:  center;
+  background: #355326 !important;
+
+
+}
+
+.continue {
+  display: flex;
+  margin-left: 25%;
+  width: 50%;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  background: #355326;
+  text-align: center;
+  
+}
+
+
+ 
+
+
+
+/* payment address page css end  */
 
 
 
