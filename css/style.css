@@ -821,3 +821,530 @@ textca {
 }
 
 /* Indoor Plants Page CSS End */
+
+
+/*  */
+
+
+/* sign up page css  */
+
+.s-signup{
+    
+  height: 600px;
+  width: 900px;
+  margin: 20px;
+  margin-left: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+   
+
+}
+
+.f-signup, .s-f-signup{
+  height: 100%;
+  width: 50%;
+  border-bottom-right-radius: 10%;
+  border-top-right-radius: 10%;
+  
+  
+
+ 
+ 
+  
+}
+
+.s-f-signup{
+background: rgba(153, 151, 151, 0.3) !important;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+ 
+}
+.s-s-text{
+  line-height: 1rem;
+  
+}
+
+.f-signup img{
+  height: 100%;
+  width: 100%;
+}
+
+
+.c-name-donate {
+margin-top: 20px;
+margin-bottom: -10px;
+}
+
+.vb-pageing {
+margin-left: 40px;
+text-align: center;
+align-items: center;
+display: flex;
+justify-content: space-around;
+width: 80%;
+height: 30px;
+font-size: medium;
+background-color: #355326;
+
+}
+
+
+/* vista page b css */
+.ts-text {
+border-left: #355326 solid 2px;
+margin: 2px;
+}
+
+
+
+
+.tb-main {
+margin: 20px;
+
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+
+.tb-mainleft {
+height: 400px;
+width: 49%;
+margin: 5px;
+}
+
+.tb-mainright {
+display: flex;
+height: 400px;
+width: 49%;
+margin: 5px;
+justify-content: space-around;
+}
+
+.cp-left-text {
+color: rgba(238, 45, 45, 1);
+
+}
+
+.dbtime {
+margin-top: 15px;
+margin-left: 5px;
+}
+
+
+/* Indoor Plants Page CSS Start */
+.indore-plants-image {
+border-radius: 25px !important;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+margin-top: -90px;
+}
+
+.indore-plants-card-image {
+border: solid 1px !important;
+width: 200px;
+border-radius: 25px;
+padding-left: 20px;
+padding-bottom: 10px;
+}
+
+.indoor-plant-image {
+padding-bottom: 120px;
+}
+
+
+
+.right-leaf {
+color: #A2B6A6;
+width: 52px;
+height: 46.01px;
+top: -0px;
+left: 0.01px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.left-leaf {
+color: #A2B6A6;
+width: 52px;
+height: 46.01px;
+top: -0px;
+left: 51.99px;
+gap: 0px;
+opacity: 0px;
+rotate: -180;
+
+}
+
+.fa-star {
+color: yellow !important;
+}
+
+
+/* sign up page css  */
+
+
+
+
+/* Payment address page css start  */
+
+.p-main{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 50% ;
+  background-color: #d9d7d7;
+  position: relative;
+  align-items: center;
+  margin-left: 25%;
+
+}
+
+.p-delevery{
+  margin-left: 25%;
+
+}
+
+.f-and-lbtn{
+  margin-left: 25%;
+  display: flex;
+margin-left: 25%;
+  
+}
+
+
+
+
+.address{
+  display: flex;
+  margin: auto;
+  margin-left: 0%; 
+  width: 600px;
+  height: 90px;
+ 
+}
+.payment-address{
+  margin-left: 25%;
+
+}
+
+
+.rowsbot{
+  margin-left: 24%;
+  width: 50%;
+  display: flex;
+}
+
+.paymentbtm{
+display: flex;
+margin: 20;
+margin-left: 25%;
+}
+
+.paymentbtm button{
+ 
+  background: #355326;
+  margin: 30px;
+  width: 100px;
+  
+}
+
+.Continuebtn button{
+  margin-left: 25%;
+  background: #355326;
+
+}
+
+.hoobtn button {
+  margin-left: 25%;
+  width: 50%;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  background: #355326;
+  
+
+}
+.hoobtn{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 50% ;
+  position: relative;
+  align-items: center;
+  margin-left: 13%;
+}
+
+.continuew1 {
+  display: flex;
+  width: 100%;
+  text-align:  center;
+  background: #355326 !important;
+
+
+}
+
+.continue {
+  display: flex;
+  margin-left: 25%;
+  width: 50%;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  background: #355326;
+  text-align: center;
+  
+}
+
+
+ 
+
+
+
+/* payment address page css end  */
+
+
+
+
+/* payment methode page star */
+
+.p-main{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 50% ;
+  background-color: #d9d7d7;
+  position: relative;
+  align-items: center;
+  margin-left: 25%;
+}
+
+.p-edit{
+    margin-left: 25%;
+  }
+
+  .select-payment{
+  
+   margin-left: 25%;
+  }
+
+  .pay-with{
+       margin-left: 25%;
+  }
+
+.p-img{
+  margin-left: 25%;
+}
+
+  .p-img img{
+    
+    margin-left: -200px;
+    height: 30px;
+    margin-top: -50px
+    
+  }
+
+  .netbanking{
+        margin-left: 25%;
+        width: 300px;
+       
+
+  }
+  .submitBt{
+    background: #355326;
+    color: white;
+    width: 300px;
+    margin-left: -82px;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    
+  }
+
+ 
+
+
+  .upiapp{
+     margin-left: 25%;
+     padding: 5px;
+     border: 0.5px solid black;
+     width: 30%;
+  }
+
+  .pay-btn{
+    margin-left: 25%;
+  }
+
+  .cod{
+     margin-left: 25%;
+  }
+
+
+/* payment methode page end  */
+
+
+
+
+
+/* payment conformation pgae start */
+
+.p-main{
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 50% ;
+  background-color: #d9d7d7;
+  position: relative;
+  align-items: center;
+  margin-left: 25%;
+
+}
+
+.paymentconformation{
+  margin-left: 25%;
+}
+
+.estimate{
+  margin-left: 25%;
+
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.product-card {
+
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  width: 700px;
+  height: 200px;
+  margin-left: 25%;
+}
+
+
+
+.bordqt{
+height: 100px;
+width: 90px;
+  border: solid 0.5px black;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.quantity button{
+  height: 30px;
+  margin: auto;
+  background-color: white;
+}
+
+.qtyok{
+  margin-left: 10px;
+}
+
+.product-card img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.product-details {
+  flex-grow: 1;
+}
+
+.product-details h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.price {
+  font-size: 16px;
+  color: #007bff;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.quantity button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+
+
+
+.m-plant p{
+  /* margin-left: 25%; */
+  font-size: 11px;
+  margin-left: 20px;
+  display: flex;
+  margin-top: 20px;
+
+}
+
+.m-btn {
+  background-color: #929292;
+  height: 3.5rem;
+  width: 5rem;
+  margin-top: 60px;
+  margin-right: 350px;
+  display: flex;
+
+
+}
+
+.m-btn button{
+  height: 1rem;
+  width: 1rem;
+  margin-left: 20px;
+
+}
+
+
+
+.subtotal{
+  margin-left: -10%;
+  display: flex;
+justify-content: space-evenly;
+}
+
+.orderbtn{
+  margin-left: 21%;
+  width: 100%;
+  background: #355326;
+  width: 50%;
+
+}
+
+
+.price12{
+  margin-left: -05%;
+}
+
+
+
+/* payment conformation page end */
