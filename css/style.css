@@ -1348,3 +1348,1003 @@ justify-content: space-evenly;
 
 
 /* payment conformation page end */
+
+
+
+/* *********************** Facilities page css start  ranjit *************************** */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar css  starts  */
+*{
+  font-family: 'Cambria';
+}
+.nav-anchar{
+  color: #272837 !important;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23.45px;
+  text-align: center; 
+}
+.nav-anchar:hover{
+  font-size: 20px;
+  border-bottom: 1.5px solid #775847;
+}
+.nav-btn{
+  background-color: #355326;
+  width: 10rem;
+  border-radius: 10px;
+  border: none;
+}
+.nav-btn a{
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 40px 0px;
+}
+.nav-btn a:hover{
+  color: #ffff;
+}
+.nav-icon{
+  color: #272837;
+  /* color: #fff; */
+}
+.nav-input{
+  background-color: #FFFDFD99 !important;
+}
+
+/* Navbar css   ends  */
+
+.maindiv {
+  text-align: center;
+  
+  /* display: flex; */
+}
+
+#box {
+  height: 75vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(../Images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+.satisfactory-a {
+  color: #355326;
+  margin-top: 35px;
+  text-align: center;
+  justify-content: center;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.main-2 {
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  float: left;
+
+}
+
+.main-3 {
+  /* border: 2px solid red; */
+  height: 40vh;
+  width: 35vw;
+  background-image: url(../Images/plant-2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-shadow: 15px black;
+  border-radius: 20px;
+  margin-left: 210px;
+  margin-top: 150px;
+  position: static;
+  position: relative;
+  float: left;
+  box-shadow: 5px 5px 10px black;
+  cursor: pointer;
+
+  /* background-position: 100px 100px; */
+
+}
+
+.main-4 {
+  border: 1px solid rgb(14, 13, 13);
+  height: 48vh;
+  width: 40vw;
+  border-radius: 16px;
+  /* padding: 25px; */
+  margin-left: 680px;
+  margin-top: 125px;
+  margin-right: 50px;
+  box-shadow: 50px solid black;/
+  /* border-radius: 20px; */
+  /* position: fixed; */
+
+}
+
+.satisfactory-b {
+  text-align: center;
+  padding: 0px;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-top: 60px;
+  margin-right: 50px;
+  color: #355326;
+
+}
+
+.satisfactory-c {
+  padding: 20px;
+  width: 350px;
+  margin-left: 220px;
+  text-align: left;
+  font-size: largeer;
+
+  /* font-size: large; */
+
+
+}
+
+.satisfactory-d {
+  height: 4.2vh;
+  width: 18vw;
+  border-radius: 6px;
+  margin: 5px;
+  background-color: green;
+  color: aliceblue;
+  font-weight: bolder;
+  margin-left: 0px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+  /* Botanical garden page css end  */
+
+  /* ***************************************************************** */
+
+  /* Educate page css starts  */
+  .educatemaindiv{
+    margin-top: 160px;
+  }
+
+
+
+
+
+.educate-main-a {
+  background-image: url(../Images/bg2.jpg);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  opacity: 0.2;
+  /* position: absolute; */
+  margin-top: 120px;
+  /* border: 10px solid red; */
+}
+
+.educate-main {
+  margin-top: -520px;
+  margin-left: 80px;
+  
+
+
+}
+
+.educate-main h2 {
+  text-align: center;
+  margin: 10px;
+  margin-top: -50px;
+}
+
+.educate-main p {
+  text-align: center;
+  justify-content: center;
+  width: 230px;
+  margin-left: 60px;
+  /* border: 2px solid red; */
+
+}
+
+.educatebtn-a {
+  height: 33px;
+  width: 250px;
+  background-color: rgb(3, 68, 3);
+  border-radius: 8px;
+  margin-left: 30px;
+  margin-top: 25px;
+  color: white;
+  cursor: pointer;
+  /* border: 2px solid red; */
+}
+
+.educatebtn-b {
+  height: 33px;
+  width: 270px;
+  background-color: rgb(90, 50, 50);
+  border-radius: 8px;
+  margin-left: 30px;
+  margin-top: 55px;
+  color: white;
+  cursor: pointer;
+}
+
+.educatebtn-c {
+  height: 33px;
+  width: 250px;
+  background-color: rgb(3, 68, 3);
+  border-radius: 8px;
+  margin-left: 30px;
+  margin-top: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.educate-a {
+  float: left;
+  /* border: 2px solid black; */
+  height: 180px;
+  width: 330px;
+  padding: 10px;
+  margin: 10px;
+  /* margin-top: 140px; */
+  margin-left: 150px;
+  margin-bottom: 1-850px;
+
+}
+
+.educate-b {
+  /* border: 2px solid black; */
+  height: 180px;
+  width: 330px;
+  margin: 10px;
+  /* margin-top: -200px; */
+  float: left;
+  /* margin-top: 50px; */
+
+}
+
+.educate-c {
+  /* border: 2px solid black; */
+  height: 180px;
+  width: 330px;
+  margin: 10px;
+  float: left;
+  /* margin-top: 140px; */
+  /* margin-top: -200px; */
+
+}
+
+.green-1 {
+  /* border: 2px solid red; */
+  height: 70px;
+  width: 95px;
+  margin-left: 120px;
+  background-color: rgb(18, 218, 18);
+  border-radius: 10px;
+  /* margin-top: 150px; */
+}
+
+.green-2 {
+  /* border: 2px solid red; */
+  height: 70px;
+  width: 95px;
+  margin-left: 120px;
+  background-color: rgb(131, 77, 77);
+  border-radius: 10px;
+}
+
+.educate-main-a {
+  color: rgb(87, 67, 67);
+  margin-top: 355px;
+  padding: 40px;
+  text-align: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bolder;
+
+}
+
+/* flip effect css starts for card 1  */
+/* Container for the entire flip card */
+.flip-card1 {
+  height: 70px;
+  width: 95px;
+  margin-left: 120px;
+  margin-top: -10px;
+  border-radius: 10px;
+  perspective: 1000px;
+  /* Add perspective for 3D effect */
+}
+
+/* Inner container for flipping */
+.flip-card-inner1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+  /* Maintain 3D positioning of child elements */
+}
+
+/* Style for front and back of the card */
+.flip-card-front1,
+.flip-card-back1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  /* Hide back side initially */
+}
+
+/* Style for front of the card */
+.flip-card-front1 {
+  background-color: #b92c2c;
+  background-image: url(../Images/cart-1.PNG);
+  background-position: 100% 100%;
+  background-size: cover;
+  color: #333;
+  border-radius: 10px;
+  margin-bottom: 200px;
+  margin-top: -60px;
+}
+
+/* Style for back of the card */
+.flip-card-back1 {
+  background-color: #4CAF50;
+  color: white;
+  transform: rotateY(180deg);
+  /* Initially hide the back side */
+  border-radius: 10px;
+  margin-bottom: 200px;
+  margin-top: -60px;
+}
+
+/* Rotate the inner container when hovered to create flip effect */
+.flip-card1:hover .flip-card-inner1 {
+  transform: rotateY(180deg);
+}
+
+/* flip effect css end for card 1  */
+
+
+
+
+
+/* flip effect css starts for card 2  */
+/* Container for the entire flip card */
+.flip-card2 {
+  height: 70px;
+  width: 95px;
+  margin-left: 120px;
+  margin-top: -10px;
+  border-radius: 10px;
+  perspective: 1000px;
+  /* Add perspective for 3D effect */
+}
+
+/* Inner container for flipping */
+.flip-card-inner2 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+  /* Maintain 3D positioning of child elements */
+}
+
+/* Style for front and back of the card */
+.flip-card-front2,
+.flip-card-back2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  /* Hide back side initially */
+}
+
+/* Style for front of the card */
+.flip-card-front2 {
+  background-color: #b92c2c;
+  background-image: url(../Images/cart-2.PNG);
+  background-position: 100% 100%;
+  background-size: cover;
+  color: #333;
+  border-radius: 10px;
+  margin-bottom: 200px;
+  margin-top: -60px;
+}
+
+/* Style for back of the card */
+.flip-card-back2 {
+  background-color: #4CAF50;
+  color: white;
+  transform: rotateY(180deg);
+  /* Initially hide the back side */
+  border-radius: 10px;
+  margin-bottom: 200px;
+  margin-top: -60px;
+}
+
+/* Rotate the inner container when hovered to create flip effect */
+.flip-card2:hover .flip-card-inner2 {
+  transform: rotateY(180deg);
+}
+
+/* flip effect css end for card 2  */
+
+
+
+
+/* flip effect css starts for card 3  */
+/* Container for the entire flip card */
+.flip-card3 {
+  height: 70px;
+  width: 95px;
+  margin-left: 120px;
+  margin-top: -10px;
+  border-radius: 10px;
+  perspective: 1000px;
+  /* Add perspective for 3D effect */
+}
+
+/* Inner container for flipping */
+.flip-card-inner3 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+  /* Maintain 3D positioning of child elements */
+}
+
+/* Style for front and back of the card */
+.flip-card-front3,
+.flip-card-back3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  /* Hide back side initially */
+}
+
+/* Style for front of the card */
+.flip-card-front3 {
+  background-color: #b92c2c;
+  background-image: url(../Images/cart-3.PNG);
+  background-position: 100% 100%;
+  background-size: cover;
+  color: #333;
+  border-radius: 10px;
+  margin-bottom: 200px;
+  margin-top: -60px;
+}
+
+/* Style for back of the card */
+.flip-card-back3 {
+  background-color: #4CAF50;
+  color: white;
+  transform: rotateY(180deg);
+  /* Initially hide the back side */
+  border-radius: 10px;
+  margin-bottom: 200px;
+  margin-top: -60px;
+}
+
+/* Rotate the inner container when hovered to create flip effect */
+.flip-card3:hover .flip-card-inner3 {
+  transform: rotateY(180deg);
+}
+
+/* flip effect css end for card 3  */
+
+.educate-title {
+  position: absolute;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 450px;
+  margin-left: 700px;
+  /* justify-content: center; */
+  /* display: flex; */
+  align-items: center;
+
+}
+
+/* educate css page css end  */
+/* ************************************************************************ */
+
+.plan-main {
+  /* border: 2px solid black; */
+  margin-top: 450px;
+  height: 100vh;
+
+}
+
+.planh2 h2{
+  /* margin: 40px; */
+  margin-top: -360px;
+  font-weight: 900;
+  color: #355326;
+  font-size: 2rem;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+
+.plan-para {
+  border: 2px solid red;
+  height: 180px;
+  border: 1px solid rgb(87, 72, 72);
+  height: 320px;
+  width: 540px;
+  border-radius: 16px;
+  /* padding: 25px; */
+  margin-left: 310px;
+  margin-top: 130px;
+  margin-right: 50px;
+  box-shadow: 50px solid black;/
+}
+
+.plan-parah2 {
+  text-align: center;
+  padding: 0px;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-right: 150px;
+  color: #333;
+  font-weight:bolder;
+  /* border: 2px solid red ; */
+
+}
+
+.plan-parap {
+  padding: 15px;
+  width: 350px;
+  margin-left: 60px;
+  text-align: left;
+  
+}
+
+.plan-parabtn {
+  height: 4.5vh;
+  width: 18vw;
+  border-radius: 6px;
+  margin: 5px;
+  background-color: rgb(4, 66, 4);
+  color: aliceblue;
+  font-weight: bolder;
+  margin-right: 90px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.imagediv {
+  height: 260px;
+  width: 370px;
+  background-image: url(../Images/plan-image.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* text-shadow: 15px black; */
+  border-radius: 20px;
+  margin-left: 770px;
+  margin-top: -285px;
+  /* position: static; */
+  /* position: relative; */
+  float: left;
+  box-shadow: 0px 0px 10px 0px black;
+  cursor: pointer;
+}
+
+
+/* .donate-main{ */
+  /* background-image : linear-gradient(#775847D4 , #355326C2 ); */
+  /* border: 2px solid red; */
+  /* margin-top: 100px; */
+  /* height: 180vh; */
+  /* position: 100px 100px; */
+  /* padding: 20px; */
+  /* position: absolute; */
+  /* margin-bottom: 40px; */
+  
+/* } */
+.donatebtn{
+  background-color: #355326;
+  color: white;
+  width: 190px;
+  height: 25px;
+  margin-top: 10px;
+  
+}
+.donateh3 h3{
+  color: white;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 40px;
+  padding-top: 35px;
+  /* border: 2px solid  rebeccapurple; */
+}
+.donatep{
+  color: white;
+  text-align: center;
+  width: 650px;
+  justify-content: center;
+  margin-left: 350px;
+}
+.donatediv{
+  height: 50vh;
+  margin-top: -10px;
+  /* border: 2px solid red; */
+  background-image : linear-gradient(#775847D4 , #355326C2 );
+}
+
+
+/* ************ Footer starts *********** */
+
+.footer{
+  position: relative;
+  bottom: 0;
+  height: 45vh;
+  width: 100%;
+  background: #B39D96;
+  color: #ffff;
+  padding: 15px 70px;
+  /* margin-top: 2200px; */
+}
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 30px;
+}
+.footer-top .footer-right, .footer-left li{
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+}
+.footer-sub-left{
+  width: 40%;
+}
+.footer-left h2{
+  margin-left: 30px;
+}
+.footer-left li{
+  list-style: none;
+  line-height: 35px;
+}
+.footer-sub-right{
+  width: 40%;
+  margin-top: 5rem;
+}
+.footer-btn{
+  background: #775847 !important;
+  padding: 0px 20px;
+  border: none !important;
+  color: #ffff;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+}
+.footer-icon{
+  text-align: right;
+}
+.footer-icon i{
+  color: #775847;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 3.5px;
+  padding: 5px;
+}
+/* ************ Footer ends *********** */
+
+
+/* *********************** Facilities page css  end *************************** */
+
+
+/* *********************** explore page css start *************************** */
+
+*{
+  font-family: 'Cambria';
+}
+
+/* *******************Navbar starts *************** */
+.nav-anchar{
+  color: #272837 !important;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23.45px;
+  text-align: center; 
+}
+.nav-anchar:hover{
+  font-size: 20px;
+  border-bottom: 1.5px solid #775847;
+}
+.nav-btn{
+  background-color: #355326;
+  width: 10rem;
+  border-radius: 10px;
+  border: none;
+}
+.nav-btn a{
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 40px 0px;
+}
+.nav-btn a:hover{
+  color: #ffff;
+}
+.nav-icon{
+  color: #272837;
+  /* color: #fff; */
+}
+.nav-input{
+  background-color: #FFFDFD99 !important;
+}
+/* *******************Navbar ends *************** */
+
+.facilities{
+  background-image : linear-gradient(#7e9683b2 , #B39D96B2 );
+  width: 100%;
+  /* border: 2px solid red; */
+}
+.facilities p{
+  /* border: 2px solid red; */
+  width: 450px;
+  margin: 120px 540px ;
+  color: white;
+  height: 40vh;
+  text-align: left;
+  padding-top: 10px;
+  /* border: 2px solid red; */
+}
+
+.facilitiesbg1 img {
+  /* border: 2px solid red; */
+  height: 300px;
+  width: 360px;
+  /* position: 100px 100px; */
+  background-size: cover;
+  /* border: 2px solid red; */
+  position: absolute;
+  margin-top: -90px;
+  margin-left: 80px;
+  border-radius: 30px;
+}
+.facilitiesh h2{
+  font-size: larger;
+  font-weight: bold; 
+   margin: -20px 550px;
+   position: absolute;
+   margin-left: 540px;
+   margin-top: -40px;
+   font-size: 1.5rem;
+   /* /* border: 2px solid red; */
+}
+/* .facilitiest{ */
+  
+
+
+
+/* PLan ************ */
+.planimg img{
+  height: 50vh;
+  width: 40vw;
+  position: relative;
+  border-radius: 15px;
+  margin: 10px 510px;
+}
+.plantitle{
+  margin: 0px 140px;
+  font-size: 1.2rem;
+  /* font-weight: bold; */
+  margin-top: -40px;
+}
+.plantitle u{
+  color: #3d6828;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.planp{
+  color: red;
+  width: 30vw;
+  margin-top: -80px;
+  margin-left: 20px;
+}
+.planlog{
+  font-size: 1.5rem;
+  margin-left: 50px;
+}
+.planlog u{
+  color: #3d6828;
+  font-weight: bolder;
+}
+
+
+
+
+
+.exp{
+  margin-left: 50px;
+  text-align: left;
+}
+.exp h3{
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
+.luch{
+  margin-left: 50px;
+  text-align: left;
+}
+
+.luch h3{
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
+.access{
+  margin-left: 70px;
+  text-align: left;
+}
+.access h3{
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin: 20px;
+  margin-left: 0px;
+}
+.hours{
+  margin-left: 70px;
+  text-align: left;
+}
+.hours h3{
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin: 20px;
+  margin-left: 0px;
+}
+
+.trip{
+  margin-left: 70px;
+  text-align: left;
+}
+.trip h3{
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin: 20px;
+  margin-left: 0px;
+}
+
+.bookbtn{
+  background-color: #3d6828;
+  width: 90vw;
+  height: 5vh;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  /* margin-left: 15px; */
+}
+.book{
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+/* *****Donate section starts ****** */
+.donate-main{
+  background-image : linear-gradient(#775847D4 , #355326C2 );
+  /* border: 2px solid red;*/
+  /* margin-top: 40px; */
+  height: 230px;
+  
+}
+.donatebtn{
+  background-color: #355326;
+  color: white;
+  width: 190px;
+  height: 30px;
+  margin-top: 10px;
+  margin-right: 80px;
+  border-radius: 5px;
+  margin-left: 730px;
+  
+}
+.donateh3{
+  color: white;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 60px ;
+  /* margin-top: 260px; */
+  padding-top: 45px;
+  /* border: 2px solid  rebeccapurple; */
+}
+.donatep{
+  color: white;
+  text-align: center;
+  width: 650px;
+  justify-content: center;
+  margin-left: 450px;
+}
+
+.donatediv h3{
+  margin-top: 60px;
+}
+/* *****Donate section ends ****** */
+
+
+/* ************ Footer starts *********** */
+
+.footer{
+  position: relative;
+  bottom: 0;
+  height: 45vh;
+  width: 100%;
+  background: #B39D96;
+  color: #ffff;
+  padding: 15px 70px;
+  /* margin-top: 2200px; */
+}
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 30px;
+}
+.footer-top .footer-right, .footer-left li{
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+}
+.footer-sub-left{
+  width: 40%;
+}
+.footer-left h2{
+  margin-left: 30px;
+}
+.footer-left li{
+  list-style: none;
+  line-height: 35px;
+}
+.footer-sub-right{
+  width: 40%;
+  margin-top: 5rem;
+}
+.footer-btn{
+  background: #775847 !important;
+  padding: 0px 20px;
+  border: none !important;
+  color: #ffff;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+}
+.footer-icon{
+  text-align: right;
+}
+.footer-icon i{
+  color: #775847;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 3.5px;
+  padding: 5px;
+}
+
+.follow{
+  margin-top: 40px;
+  position:relative;
+  width: 360px;
+  margin-left: -80px;
+}
+/* ************ Footer ends *********** */
+
+
+
+
+
+/* *********************** explore page css  end *************************** */
