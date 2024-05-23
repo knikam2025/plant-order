@@ -19,7 +19,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"
+    <nav class="navbar navbar-main navbar-expand-lg navbar-light bg-light"
         style="height: 13vh; background:#A2B6A6 !important; padding: 0px 50px; opacity: 11111;">
         <div class="container-fluid">
 
@@ -31,7 +31,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse navbar-collapse-main" id="navbarSupportedContent">
 
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="gap: 30px;">
                     <li class="nav-item">
@@ -48,7 +48,7 @@
                     </li>
                 </ul>
 
-                <form class="d-flex justify-content-center align-items-center">
+                <form class="nav-form d-flex justify-content-center align-items-center p-2 rounded-2" style="background-color: #A2B6A6;">
                     <input class="nav-input form-control me-2 rounded-2 w-50" type="search" placeholder=" Search"
                         aria-label="Search">
                     <i class="nav-icon fa-solid m-3 fa-cart-shopping"></i>
@@ -289,7 +289,6 @@
         function getDirection() {
             var windowWidth = window.innerWidth;
             var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
-            // var slidesPerView = window.innerWidth <= 760 ? 0 : 0;
 
             return direction;
         }
