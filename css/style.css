@@ -603,8 +603,23 @@ textca {
   width: 100px;
 } */
 
+.cardSelect {
+  display: flex;
+  width: 20rem;
+  height: 450px;
+  border-left: 2px solid #000;
+  margin-right: 10px;
+  justify-content: space-around;
+  margin-left: 50px;
+  margin-right: 50px;
+position: relative;
+}
 
 
+.selectImageButton{
+  position: absolute;
+  bottom: 8rem;
+}
 
 
 
@@ -788,6 +803,9 @@ textca {
 .indoor-plant-image {
   padding-bottom: 120px;
 }
+
+
+
 
 
 
